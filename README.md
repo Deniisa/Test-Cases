@@ -3,6 +3,9 @@
 Below are some test case samples that I wrote during my QA course.
 
 ------------------------------------------------------------------
+**Title**
+Test login with correct credentials
+
 **Description:**
 Check if the login works when a person uses incorrect user/pass.
 
@@ -19,6 +22,8 @@ User: denisapop93@gmail.com
 Pass: 1234 
 
 -----------------------------------------------------------------------
+**Title**
+SQL Injection
 
 **Description:**
 Check if the login works when a person uses malicious code for user/pass.
@@ -35,6 +40,8 @@ User shouldn't be able to login and it gets an error message.
 User: '
 
 ----------------------------------------------------------------------------------
+**Title**
+Test search with valid product name
 
 **Description:**
 Check if the search works when a person uses a valid product name.
@@ -51,6 +58,8 @@ A page should display the results for the selected product.
 Product searched: Iphone
 
 -------------------------------------------------------------------------------
+**Title**
+Test the clear seach button
 
 **Description:**
 Check if the clear search button works.
@@ -64,6 +73,8 @@ Check if the clear search button works.
 Once pressed, the clear search button should remove the text from the search box.
 
 --------------------------------------------------------------------------------------------
+**Title**
+Enter nothing in the search box
 
 **Description:**
 Check what happens if you click/press on the search button with no data in the search box.
